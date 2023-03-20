@@ -4,7 +4,6 @@ import memesData from '../memesData'
 const Form = () => {
 
   const [url, setUrl] = React.useState('https://i.imgflip.com/1g8my4.jpg')
-
   function getMemeImage() {
     const memesArray = memesData.data.memes
     const randomMeme = memesArray[Math.floor(Math.random() * memesArray.length)]
